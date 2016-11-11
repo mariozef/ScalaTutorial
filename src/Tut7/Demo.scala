@@ -19,6 +19,8 @@ object Demo {
       case ex: IOException => {
         println("IO Exception")
       }
+    } finally {
+      println("Exiting finally...")
     }
   }
 }

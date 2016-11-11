@@ -3,7 +3,7 @@ package Tut2
 /**
   * Created by mariozef on 2016-11-11.
   */
-class Location(override val xc: Int, override val yc: Int, zc: Int) extends Point(xc, yc) {
+class Location( val xc: Int, val yc: Int, zc: Int) extends Point(xc, yc) {
   var z: Int = zc
 
   def move(dx: Int, dy: Int, dz: Int) {
